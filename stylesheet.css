@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
     color: #333333;
-  
+    background-image: url("background.jpg");
     transition: all 0.2s;
   }
   
