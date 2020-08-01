@@ -9,7 +9,7 @@
 </head>
 
 
-<body onload="scrollToTop()">
+<body onload="scrollToTop()" onmousemove="biggerpic()">
 	
     <div class="header">
         <h1>yo matey wass good in da hood?</h1>
@@ -18,6 +18,11 @@
     <script>
         function scrollToTop() { 
                 window.scrollTo(0, -10); 
+            } 
+
+        function biggerpic() { 
+            document.body.style.backgroundSize = "200% 200%";
+            
             } 
 
     </script>
